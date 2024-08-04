@@ -1,0 +1,34 @@
+{
+  "name": "dweik/laravel-database-patching",
+  "description": "Laravel database patching",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": [
+    "laravel", "database", "patching", "migration", "seed", "seeding", "schema",
+    "command", "artisan", "incremantal", "inserting", "updating", "deleting",
+    "insert", "update", "delete", "adding", "modifying", "add", "modify"
+  ],
+  "authors": [
+    {
+      "name": "Abdelqader osama",
+      "email": "abdelqader.aldweik@tarjama.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "illuminate/database": "^8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelDatabasePatching\\": "src"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "LaravelDatabasePatching\\DatabasePatchingServiceProvider"
+      ]
+    }
+  }
+}

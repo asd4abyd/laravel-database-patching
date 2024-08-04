@@ -1,0 +1,14 @@
+<?php
+
+use LaravelDatabasePatching\Interfaces\SQLPatchInterface;
+use \Illuminate\Support\Facades\Schema;
+use Illuminate\Support\Facades\DB;
+
+class {{ $class }} implements SQLPatchInterface
+{
+
+    public function handle()
+    {
+        // do something
+    }
+}
