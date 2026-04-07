@@ -1,12 +1,11 @@
 <?php
 
-namespace LaravelDatabasePatching;
+namespace Dweik\LaravelDatabasePatching;
 
 use Illuminate\Support\ServiceProvider;
-use LaravelDatabasePatching\Commands\InstallCommand;
-use LaravelDatabasePatching\Commands\MakePatchCommand;
-use LaravelDatabasePatching\Commands\RunCommand;
-use LaravelDatabasePatching\Commands\BaseCommand;
+use Dweik\LaravelDatabasePatching\Commands\InstallCommand;
+use Dweik\LaravelDatabasePatching\Commands\MakePatchCommand;
+use Dweik\LaravelDatabasePatching\Commands\RunCommand;
 
 class PatchSQLServiceProvider extends ServiceProvider
 {

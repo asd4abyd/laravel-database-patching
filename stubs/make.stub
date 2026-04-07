@@ -1,6 +1,6 @@
 <?php
 
-use LaravelDatabasePatching\Interfaces\SQLPatchInterface;
+use Dweik\LaravelDatabasePatching\Interfaces\SQLPatchInterface;
 use \Illuminate\Support\Facades\Schema;
 use Illuminate\Support\Facades\DB;
 

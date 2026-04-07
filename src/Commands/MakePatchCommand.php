@@ -1,10 +1,10 @@
 <?php
 
-namespace LaravelDatabasePatching\Commands;
+namespace Dweik\LaravelDatabasePatching\Commands;
 
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
-use LaravelDatabasePatching\Bases\CommandBase;
-use Str;
+use Illuminate\Support\Str;
+use Dweik\LaravelDatabasePatching\Bases\CommandBase;
 
 class MakePatchCommand extends CommandBase
 {

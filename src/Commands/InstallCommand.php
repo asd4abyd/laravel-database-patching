@@ -1,9 +1,9 @@
 <?php
 
-namespace LaravelDatabasePatching\Commands;
+namespace Dweik\LaravelDatabasePatching\Commands;
 
 
-use LaravelDatabasePatching\Bases\CommandBase;
+use Dweik\LaravelDatabasePatching\Bases\CommandBase;
 use Symfony\Component\Console\Input\InputOption;
 
 class InstallCommand extends CommandBase

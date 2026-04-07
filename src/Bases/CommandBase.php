@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelDatabasePatching\Bases;
+namespace Dweik\LaravelDatabasePatching\Bases;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;

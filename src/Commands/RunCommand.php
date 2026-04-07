@@ -1,13 +1,13 @@
 <?php
 
-namespace LaravelDatabasePatching\Commands;
+namespace Dweik\LaravelDatabasePatching\Commands;
 
 use Illuminate\Console\ConfirmableTrait;
 use Illuminate\Contracts\Filesystem\FileNotFoundException;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Str;
-use LaravelDatabasePatching\Bases\CommandBase;
+use Dweik\LaravelDatabasePatching\Bases\CommandBase;
 
 class RunCommand extends CommandBase
 {
